@@ -107,7 +107,7 @@ async function search() {
   results.slice(0,resultLimit).forEach(([url,l,sec,kind,raw])=>{
     const a=document.createElement("a");a.className="hit";
     const [path,anchor]=url.split("#");a.href=path+"?find="+encodeURIComponent(term)+"#"+anchor;
-    const small=document.createElement("small");small.textContent="제"+l+"강 · "+sec+(kind==="case"?" · 판례":kind==="classnote"?" · 수업 필기":"");
+    const small=document.createElement("small");small.textContent="제"+l+"강 · "+sec+(kind==="case"?" · 판례":kind==="classnote"?" · 수업 필기":kind==="flow"?" · 수업 흐름":"");
     const p=document.createElement("p");p.append(context(raw,term));a.append(small,p);fragment.append(a);
   });
   if(results.length>resultLimit) {
@@ -166,3 +166,18 @@ if (classToggle) {
     if (location.hash.startsWith("#lecture-note-")) setClassNotes(true);
   });
 }
+
+function openClassRoute() {
+  if (location.hash !== "#class-route") return;
+  const route = document.getElementById("class-route");
+  if (route) route.open = true;
+}
+window.addEventListener("hashchange", openClassRoute);
+window.addEventListener("pageshow", openClassRoute);
+q(".course-flow-link")?.addEventListener("click", () => {
+  if (document.getElementById("class-route")) {
+    setMenu(false);
+    document.getElementById("class-route").open = true;
+  }
+});
+openClassRoute();

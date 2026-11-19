@@ -21,3 +21,40 @@
 
 .distribution-order{list-style:none;margin:.6em 0 0;padding:0}.distribution-order>li+li{margin-top:.55em}.distribution-order .class-note{margin:.4em 0 .85em}
 .notegroup .casecard{background:var(--paper,#fff);margin:1em 0}.notegroup figure{max-width:100%}
+
+/* Classroom cross-references have their own color and a text label. */
+.course-flow,.flow-index {
+  background:#edf5fc;
+  border:1px solid #bbd2e5;
+  border-left:4px solid #467ba3;
+  border-radius:6px;
+  color:#203e55;
+  font-family:ReaderSans,"Malgun Gothic",sans-serif;
+}
+.course-flow {
+  margin:1em 0;
+  padding:.8em 1em;
+  font-size:1rem;
+  line-height:1.7;
+  overflow-wrap:anywhere;
+}
+.course-flow .flow-meta {display:flex;align-items:baseline;flex-wrap:wrap;gap:.2rem .65rem;font-size:.875rem;color:#385970}
+.flow-meta strong {color:#204f70}
+.flow-meta span,.flow-day li span {font-variant-numeric:tabular-nums}
+.bodytext .course-flow p {margin:.3em 0;font:inherit;line-height:inherit;text-indent:0;color:inherit}
+.course-flow .flow-target,.flow-day a,.course-flow-link {color:#194e76;text-decoration:underline;text-underline-offset:.2em}
+.course-flow .flow-target {display:inline-block;padding:.18em 0;font-weight:600}
+.course-flow:target {outline:2px solid #467ba3;outline-offset:2px}
+.course-flow-link {display:block;margin:0 .65rem 1rem;font-size:.9rem}
+.flow-index {margin:1.1rem 0;padding:0 1rem}
+.flow-index summary {display:flex;align-items:baseline;gap:.6em;padding:.65rem 0;cursor:pointer;font-weight:650}
+.flow-index summary::before {content:'+';font-weight:600}
+.flow-index[open]>summary::before,.flow-day[open]>summary::before {content:'−'}
+.flow-day {border-top:1px solid #cbdcea}
+.flow-day summary {font-size:.9rem;flex-wrap:wrap}
+.flow-day summary span {font-weight:400}
+.flow-day ol {list-style:none;margin:0 0 .8rem;padding:0}
+.flow-day a {display:flex;align-items:baseline;gap:.75em;padding:.3em .15em;font-size:.95rem}
+.flow-day li span {min-width:4.2em;color:#445c6f}
+@media(max-width:760px){.course-flow{padding:.65em .8em}.flow-index{padding:0 .7em}.flow-day a{gap:.4em}}
+@media print{.course-flow{break-inside:avoid}.flow-index,.course-flow-link{display:none}}
