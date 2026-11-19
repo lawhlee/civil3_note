@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" lang="ko" viewBox="0 0 805 555" role="img" aria-labelledby="title desc"><title id="title">저당권 관련 당사자의 이해관계</title><desc id="desc">저당권자는 처분권능만, 설정자는 사용·수익권능을 확보한다. 설정자는 채무자 또는 물상보증인이다. 물상보증인은 채무 없는 책임을 부담하고 구상권을 갖는다(민법 제370조, 제341조). 저당권양수인은 피담보채권 양수인이다. 후순위저당권자는 경매청구가 가능하고 후순위배당을 받으며 공동저당에서는 대위권이 보장된다. 제3취득자는 담보권 승계 및 매수인 지위 취득이 가능하다. 경락인은 임차권 등 용익권과의 충돌이 문제된다.</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 0 L9 5 L0 10 L2.5 5 Z" fill="#126453"/></marker><pattern id="road" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#eef1ee"/><path d="M-3 3L3 -3M0 14L14 0M11 17L17 11" stroke="#d6e0da" stroke-width="1"/></pattern></defs>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Malgun Gothic&apos;, &apos;Noto Sans CJK KR&apos;, sans-serif" fill="#253a37">
+<text x="101" y="47" text-anchor="middle" font-size="19" font-weight="630" fill="#126453">처분권능만 확보</text>
+<text x="412" y="47" text-anchor="middle" font-size="19" font-weight="630" fill="#126453">사용·수익권능 확보</text>
+<rect x="21" y="68" width="159" height="62" rx="8" fill="#e8f3ee" stroke="#77928a" stroke-width="1.5"/>
+<text x="100.5" y="106.0" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">저당권자</text>
+<rect x="318" y="68" width="185" height="62" rx="8" fill="#e8f3ee" stroke="#77928a" stroke-width="1.5"/>
+<text x="410.5" y="106.0" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">저당권설정자</text>
+<path d="M181,98 L318,98" stroke="#77928a" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M504 98 H544 M544 70 V134 M544 70 H572 M544 134 H572" stroke="#77928a" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="573" y="45" width="160" height="51" rx="8" fill="#f8f2e7" stroke="#77928a" stroke-width="1.5"/>
+<text x="653.0" y="77.5" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">채무자</text>
+<rect x="573" y="111" width="160" height="51" rx="8" fill="#f8f2e7" stroke="#77928a" stroke-width="1.5"/>
+<text x="653.0" y="143.5" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">물상보증인</text>
+<text x="575" y="190" text-anchor="start" font-size="16" font-weight="450" fill="#253a37">채무 없는 책임, 구상권</text>
+<text x="575" y="214" text-anchor="start" font-size="16" font-weight="450" fill="#253a37">(민법 제370조·제341조)</text>
+<path d="M99,131 L99,232" stroke="#77928a" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 5"/>
+<rect x="19" y="235" width="248" height="61" rx="8" fill="#f5f8f6" stroke="#c4d4cc" stroke-width="1.5"/>
+<text x="143" y="272.5" text-anchor="middle" font-size="18" font-weight="630" fill="#253a37">저당권양수인</text>
+<text x="290" y="271.5" text-anchor="start" font-size="18" font-weight="450" fill="#253a37">피담보채권 양수인</text>
+<rect x="19" y="308" width="248" height="70" rx="8" fill="#f5f8f6" stroke="#c4d4cc" stroke-width="1.5"/>
+<text x="143" y="350.0" text-anchor="middle" font-size="18" font-weight="630" fill="#253a37">후순위저당권자</text>
+<text x="290" y="336.0" text-anchor="start" font-size="18" font-weight="450" fill="#253a37">경매청구 가능, 후순위배당</text>
+<text x="290" y="362.0" text-anchor="start" font-size="18" font-weight="450" fill="#253a37">공동저당의 경우 대위권 보장</text>
+<rect x="19" y="389" width="248" height="64" rx="8" fill="#f5f8f6" stroke="#c4d4cc" stroke-width="1.5"/>
+<text x="143" y="428.0" text-anchor="middle" font-size="18" font-weight="630" fill="#253a37">저당목적물의 제3취득자</text>
+<text x="290" y="427.0" text-anchor="start" font-size="18" font-weight="450" fill="#253a37">담보권의 승계 및 매수인(경락인) 지위 취득 가능</text>
+<rect x="19" y="464" width="248" height="67" rx="8" fill="#f5f8f6" stroke="#c4d4cc" stroke-width="1.5"/>
+<text x="143" y="504.5" text-anchor="middle" font-size="18" font-weight="630" fill="#253a37">경락인(매수인)</text>
+<text x="290" y="503.5" text-anchor="start" font-size="18" font-weight="450" fill="#253a37">임차권 등의 용익권과 충돌 문제</text>
+</g></svg>

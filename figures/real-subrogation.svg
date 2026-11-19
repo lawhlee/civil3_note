@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" lang="ko" viewBox="0 0 646 352" role="img" aria-labelledby="title desc"><title id="title">수용보상금과 물상대위</title><desc id="desc">甲은 질권자 또는 저당권자이고 乙은 설정자이다. 지방자치단체가 담보목적물 X를 수용하며 수용보상금이 대상물이 된다.</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 0 L9 5 L0 10 L2.5 5 Z" fill="#126453"/></marker><pattern id="road" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#eef1ee"/><path d="M-3 3L3 -3M0 14L14 0M11 17L17 11" stroke="#d6e0da" stroke-width="1"/></pattern></defs>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Malgun Gothic&apos;, &apos;Noto Sans CJK KR&apos;, sans-serif" fill="#253a37">
+<rect x="20" y="23" width="169" height="74" rx="8" fill="#e8f3ee" stroke="#77928a" stroke-width="1.5"/>
+<text x="104.5" y="56.0" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">甲</text>
+<text x="104.5" y="81.0" text-anchor="middle" font-size="17" font-weight="460" fill="#253a37">질권자·저당권자</text>
+<rect x="450" y="23" width="168" height="74" rx="8" fill="#f8f2e7" stroke="#77928a" stroke-width="1.5"/>
+<text x="534.0" y="56.0" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">乙</text>
+<text x="534.0" y="81.0" text-anchor="middle" font-size="17" font-weight="460" fill="#253a37">설정자</text>
+<path d="M193,62 L445,62" stroke="#77928a" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="226" y="127" width="169" height="74" rx="8" fill="#f5f8f6" stroke="#77928a" stroke-width="1.5"/>
+<text x="310.5" y="160.0" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">X</text>
+<text x="310.5" y="185.0" text-anchor="middle" font-size="17" font-weight="460" fill="#253a37">담보목적물</text>
+<path d="M308,206 L308,265" stroke="#77928a" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 5"/>
+<rect x="223" y="270" width="175" height="66" rx="8" fill="#f5f8f6" stroke="#77928a" stroke-width="1.5"/>
+<text x="310.5" y="299.0" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">지방자치단체</text>
+<text x="310.5" y="324.0" text-anchor="middle" font-size="17" font-weight="460" fill="#253a37">수용</text>
+<path d="M516,109 L405,268" stroke="#126453" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#tip)"/>
+<text x="535" y="205" text-anchor="middle" font-size="19" font-weight="550" fill="#253a37">수용보상금</text>
+<text x="535" y="232" text-anchor="middle" font-size="19" font-weight="550" fill="#253a37">(대상물)</text>
+</g></svg>

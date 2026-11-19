@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" lang="ko" viewBox="0 0 615 292" role="img" aria-labelledby="title desc"><title id="title">삼자간 등기명의신탁</title><desc id="desc">매도인 丙과 매수인 겸 신탁자 甲이 매매계약을 체결하고, 丙이 수탁자 乙에게 직접 이전등기한다. 甲과 乙 사이에는 명의신탁약정이 있다.</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 0 L9 5 L0 10 L2.5 5 Z" fill="#126453"/></marker><pattern id="road" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#eef1ee"/><path d="M-3 3L3 -3M0 14L14 0M11 17L17 11" stroke="#d6e0da" stroke-width="1"/></pattern></defs>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Malgun Gothic&apos;, &apos;Noto Sans CJK KR&apos;, sans-serif" fill="#253a37">
+<path d="M158,63 L432,63" stroke="#126453" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#tip)"/>
+<text x="293" y="48" text-anchor="middle" font-size="19" font-weight="650" fill="#253a37">매매계약</text>
+<path d="M520,108 L520,191" stroke="#126453" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#tip)"/>
+<text x="502" y="157" text-anchor="end" font-size="17" font-weight="570" fill="#253a37">명의신탁</text>
+<path d="M118,112 L431,226" stroke="#126453" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#tip)" stroke-dasharray="9 7"/>
+<rect x="220" y="139" width="98" height="34" rx="8" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="269" y="164" text-anchor="middle" font-size="18" font-weight="630" fill="#253a37">이전등기</text>
+<rect x="16" y="24" width="138" height="77" rx="8" fill="#e8f3ee" stroke="#77928a" stroke-width="1.5"/>
+<text x="85.0" y="58.5" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">丙</text>
+<text x="85.0" y="83.5" text-anchor="middle" font-size="17" font-weight="460" fill="#253a37">매도인</text>
+<rect x="440" y="24" width="158" height="77" rx="8" fill="#f8f2e7" stroke="#77928a" stroke-width="1.5"/>
+<text x="519.0" y="58.5" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">甲</text>
+<text x="519.0" y="83.5" text-anchor="middle" font-size="17" font-weight="460" fill="#253a37">매수인·신탁자</text>
+<rect x="440" y="201" width="158" height="77" rx="8" fill="#f8f2e7" stroke="#77928a" stroke-width="1.5"/>
+<text x="519.0" y="235.5" text-anchor="middle" font-size="22" font-weight="670" fill="#253a37">乙</text>
+<text x="519.0" y="260.5" text-anchor="middle" font-size="17" font-weight="460" fill="#253a37">수탁자</text>
+</g></svg>

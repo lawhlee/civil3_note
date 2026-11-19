@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" lang="ko" viewBox="0 0 862 664" role="img" aria-labelledby="title desc"><title id="title">가등기담보권의 실행 절차</title><desc id="desc">실행의 통지, 청산, 소유권 취득의 세 단계. 변제기 후 채권자는 청산금을 평가하여 채무자 등에게 통지한다. 통지가 도달한 후 2개월의 청산기간이 경과할 때까지 변제가 없으면 청산한다. 청산금 지급과 소유권이전 및 목적물 인도의무는 동시이행관계이다. 본등기에 의한 소유권 취득, 법정지상권, 말소청구권 및 후순위권리자 보호가 문제된다.</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 0 L9 5 L0 10 L2.5 5 Z" fill="#126453"/></marker><pattern id="road" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#eef1ee"/><path d="M-3 3L3 -3M0 14L14 0M11 17L17 11" stroke="#d6e0da" stroke-width="1"/></pattern></defs>
+<g font-family="system-ui, -apple-system, BlinkMacSystemFont, &apos;Malgun Gothic&apos;, &apos;Noto Sans CJK KR&apos;, sans-serif" fill="#253a37">
+<rect x="14" y="14" width="834" height="164" rx="8" fill="#f5f8f6" stroke="#c3d3cb" stroke-width="1.5"/>
+<rect x="14" y="14" width="834" height="44" rx="6" fill="#e8f3ee" stroke="none" stroke-width="1.5"/>
+<text x="34" y="44" text-anchor="start" font-size="21" font-weight="700" fill="#126453">실행의 통지</text>
+<text x="33" y="91" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 변제기 후 청산금을 통지한다(가등기담보법 제3조 제1항·제2항).</text>
+<text x="33" y="120" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 청산금 = 통지 당시 목적물 가액 − 피담보채권액</text>
+<text x="33" y="149" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 통지 상대방은 채무자, 담보목적물의 물상보증인, 제3취득자이다.</text>
+<path d="M69,179 L69,196" stroke="#126453" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#tip)"/>
+<rect x="14" y="199" width="834" height="187" rx="8" fill="#f5f8f6" stroke="#c3d3cb" stroke-width="1.5"/>
+<rect x="14" y="199" width="834" height="44" rx="6" fill="#e8f3ee" stroke="none" stroke-width="1.5"/>
+<text x="34" y="229" text-anchor="start" font-size="21" font-weight="700" fill="#126453">청산</text>
+<text x="33" y="276" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 통지 도달 후 2개월이 경과하기까지 변제가 없으면 청산한다(제3조 제1항).</text>
+<text x="33" y="305" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 청산기간은 변제의 최후 기회이며 후순위권리자와 이해를 조정하는 기간이다.</text>
+<text x="33" y="334" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 청산금 지급과 소유권이전·목적물 인도의무는 동시이행관계이다(제4조 제3항).</text>
+<text x="33" y="363" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 청산금 청구권자와 시기(강의안 표기: 제4조 제1항, 제4조 제1항, ⑤, 제7조).</text>
+<path d="M69,387 L69,404" stroke="#126453" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#tip)"/>
+<rect x="14" y="409" width="834" height="225" rx="8" fill="#f5f8f6" stroke="#c3d3cb" stroke-width="1.5"/>
+<rect x="14" y="409" width="834" height="44" rx="6" fill="#e8f3ee" stroke="none" stroke-width="1.5"/>
+<text x="34" y="439" text-anchor="start" font-size="21" font-weight="700" fill="#126453">소유권 취득</text>
+<text x="33" y="486" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 청산금 지급 및 본등기에 의한 소유권 취득(제4조 제2항).</text>
+<text x="33" y="515" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 법정지상권(제10조), 채무자 등의 말소청구권(제11조).</text>
+<text x="33" y="544" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 후순위권리자(제2조 제5호)가 있는 경우의 사적 실행:</text>
+<text x="33" y="573" text-anchor="start" font-size="17" font-weight="450" fill="#253a37">• 통지(제6조 제1항), 권리행사 기회(제5조·제12조 제2항), 처분제한(제7조).</text>
+</g></svg>
