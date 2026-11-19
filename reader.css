@@ -59,7 +59,8 @@
 @media(max-width:760px){.course-flow{padding:.65em .8em}.flow-index{padding:0 .7em}.flow-day a{gap:.4em}}
 @media print{.course-flow{break-inside:avoid}.flow-index,.course-flow-link{display:none}}
 
-html:not(.flows-on) .course-flow, .course-flow .flow-prompt {display:none}
+html:not(.flows-on) :is(.course-flow, .flow-index, .course-flow-link),
+.course-flow .flow-prompt {display:none}
 html:not(.flows-on) .course-flow:target:has(.flow-prompt) {
   display:block;margin:.65em 0;padding:0;border:0;outline:0;background:transparent;
 }

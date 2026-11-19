@@ -168,12 +168,12 @@ if (classToggle) {
 }
 
 const flowSettings = document.createElement("fieldset");
-flowSettings.innerHTML = '<legend>수업 흐름</legend><label class="flow-choice"><input type="checkbox"> 수업 흐름 상자 표시</label>';
+flowSettings.innerHTML = '<legend>수업 흐름</legend><label class="flow-choice"><input type="checkbox"> 수업 흐름 상자와 날짜별 목차 표시</label>';
 q("#settings").append(flowSettings);
 const flowCheckbox = q("input", flowSettings);
 const flowPrompt = document.createElement("label");
 flowPrompt.className = "flow-choice flow-prompt";
-flowPrompt.innerHTML = '<input type="checkbox"> 수업 흐름 상자 표시';
+flowPrompt.innerHTML = '<input type="checkbox"> 수업 흐름 상자와 날짜별 목차 표시';
 
 function displayFlows(enabled) {
   document.documentElement.classList.toggle("flows-on", enabled);
