@@ -58,3 +58,12 @@
 .flow-day li span {min-width:4.2em;color:#445c6f}
 @media(max-width:760px){.course-flow{padding:.65em .8em}.flow-index{padding:0 .7em}.flow-day a{gap:.4em}}
 @media print{.course-flow{break-inside:avoid}.flow-index,.course-flow-link{display:none}}
+
+html:not(.flows-on) .course-flow, .course-flow .flow-prompt {display:none}
+html:not(.flows-on) .course-flow:target:has(.flow-prompt) {
+  display:block;margin:.65em 0;padding:0;border:0;outline:0;background:transparent;
+}
+html:not(.flows-on) .course-flow:target > :not(.flow-prompt) {display:none}
+.flow-choice {display:inline-flex;align-items:center;gap:.45em;min-height:2.5em;cursor:pointer}
+.flow-choice input {accent-color:#32638a}
+html:not(.flows-on) .course-flow:target > .flow-prompt {display:inline-flex;color:#294c68}

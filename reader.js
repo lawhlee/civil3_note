@@ -167,6 +167,54 @@ if (classToggle) {
   });
 }
 
+const flowSettings = document.createElement("fieldset");
+flowSettings.innerHTML = '<legend>수업 흐름</legend><label class="flow-choice"><input type="checkbox"> 수업 흐름 상자 표시</label>';
+q("#settings").append(flowSettings);
+const flowCheckbox = q("input", flowSettings);
+const flowPrompt = document.createElement("label");
+flowPrompt.className = "flow-choice flow-prompt";
+flowPrompt.innerHTML = '<input type="checkbox"> 수업 흐름 상자 표시';
+
+function displayFlows(enabled) {
+  document.documentElement.classList.toggle("flows-on", enabled);
+  flowCheckbox.checked = enabled;
+  flowPrompt.firstElementChild.checked = enabled;
+}
+function chooseFlows(enabled) {
+  displayFlows(enabled);
+  persist.set("flows", enabled ? "on" : "off");
+}
+flowCheckbox.addEventListener("change", () => chooseFlows(flowCheckbox.checked));
+flowPrompt.addEventListener("change", () => {
+  const target = flowPrompt.parentElement;
+  chooseFlows(true);
+  target.scrollIntoView({block:"start"});
+  q(".flow-target", target)?.focus({preventScroll:true});
+});
+
+// A dated or bookmarked reference offers an opt-in at its destination.
+function locateFlow() {
+  const target = document.getElementById(location.hash.slice(1));
+  if (target?.classList.contains("course-flow")) {
+    if (flowPrompt.parentElement !== target) target.append(flowPrompt);
+    target.scrollIntoView({block:"start"});
+  } else {
+    flowPrompt.remove();
+  }
+}
+displayFlows(persist.get("flows", "off") === "on");
+locateFlow();
+window.addEventListener("hashchange", locateFlow);
+window.addEventListener("pageshow", event => {
+  if (event.persisted) displayFlows(persist.get("flows", "off") === "on");
+  locateFlow();
+});
+window.addEventListener("storage", event => {
+  if (event.key === "civil3reader-flows" || event.key === null) {
+    displayFlows(persist.get("flows", "off") === "on");
+  }
+});
+
 function openClassRoute() {
   if (location.hash !== "#class-route") return;
   const route = document.getElementById("class-route");
