@@ -68,3 +68,5 @@ html:not(.flows-on) .course-flow:target > :not(.flow-prompt) {display:none}
 .flow-choice {display:inline-flex;align-items:center;gap:.45em;min-height:2.5em;cursor:pointer}
 .flow-choice input {accent-color:#32638a}
 html:not(.flows-on) .course-flow:target > .flow-prompt {display:inline-flex;color:#294c68}
+.quote .source-underline{text-decoration-thickness:1px;text-underline-offset:.16em;text-decoration-skip-ink:auto}
+.quote .source-blue{text-decoration-color:#276397}
